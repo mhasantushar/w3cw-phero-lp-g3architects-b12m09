@@ -1,0 +1,119 @@
+/* Google font CDN */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgcol-punch {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.col-punch {
+    color: #FF900E;
+}
+
+.col-dark1 {
+    color: #131313;
+}
+
+.col-dark2 {
+    color: #424242;
+}
+
+.global-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-punch {
+    background-color: #FF900E;
+    color: white;
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* header area */
+
+/* navigation bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 102px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* hero section */
+.hero-sect {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hero-copies {
+    max-width: 862px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.6875rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-copy {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.hero-img {
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* ================================== */
+@media screen and (max-width: 576px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+}
+
+/* ================================== */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+}
