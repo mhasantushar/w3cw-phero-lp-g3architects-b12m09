@@ -91,6 +91,7 @@ nav a {
 .hero-sect {
     text-align: center;
     padding-bottom: 50px;
+    margin-bottom: 85px;
 }
 
 .hero-contents {
@@ -117,10 +118,12 @@ nav a {
 }
 
 /* quick list of our features section */
-.team-features {
+.team-features-sect {
     display: flex;
+    justify-content: space-around;
     gap: 76px;
-    padding: 85px;
+    padding: 0 85px;
+    margin-bottom: 130px;
 }
 
 .team-images {
@@ -149,13 +152,48 @@ nav a {
     margin-bottom: 32px;
 }
 
+/* some facts section */
+
+.facts-copy {
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.factbox-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.factbox {
+    border: 1px inset #FF900E;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+}
+
+.fact-val {
+    color: #424242;
+    font-weight: 600;
+    font-size: 2.8125rem;
+    line-height: 3.3125rem;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.fact-desc {
+    color: #727272;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+}
+
 /* ================================== */
 @media screen and (max-width: 576px) {
     .nav-bar {
         flex-direction: column;
     }
 
-    .team-features {
+    .team-features-sect {
         flex-direction: column;
     }
 
@@ -170,7 +208,7 @@ nav a {
 
 /* ================================== */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .team-features {
+    .team-features-sect {
         flex-direction: column;
     }
 

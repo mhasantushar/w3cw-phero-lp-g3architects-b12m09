@@ -1,0 +1,1 @@
+1. When its 990-880px, the space between team image collage increases, although I set this to 24px
