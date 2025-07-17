@@ -161,6 +161,43 @@ nav a {
     margin-bottom: 32px;
 }
 
+/* feature you will love and enjoy  */
+.feat-lovenjoy-sect {
+    display: flex;
+    gap: 146px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.feat-header {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.feat-copy {
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.feat-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 586px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feat-card-head {
+    color: #131313;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.feat-card {
+    padding: 30px;
+}
+
 /* some facts section */
 
 .facts-copy {
