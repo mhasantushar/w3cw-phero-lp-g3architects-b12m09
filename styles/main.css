@@ -212,6 +212,7 @@ nav a {
 
 .sponsor-wrapper {
     display: flex;
+    gap: 50px;
     justify-content: space-between;
     margin-bottom: 30px;
 }
@@ -243,11 +244,17 @@ nav a {
     .factbox-wrapper {
         flex-direction: column;
         justify-content: center;
-        margin: 0 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .facts-contents {
         text-align: center;
+    }
+
+    .sponsor-wrapper {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -263,5 +270,11 @@ nav a {
 
     .factbox-wrapper {
         flex-wrap: wrap;
+    }
+
+    .sponsor-wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+        
     }
 }
