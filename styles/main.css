@@ -234,4 +234,8 @@ nav a {
     .team-contents {
         text-align: center;
     }
+
+    .factbox-wrapper {
+        flex-wrap: wrap;
+    }
 }
