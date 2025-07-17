@@ -178,10 +178,13 @@ nav a {
     margin-bottom: 60px;
 }
 
+.feat-left-block {
+    max-width: 50%;
+}
+
 .feat-card {
     background-color: #FFFFFF;
     border-radius: 8px;
-    width: 586px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     margin-bottom: 20px;
 }
@@ -195,6 +198,10 @@ nav a {
 
 .feat-card {
     padding: 30px;
+}
+
+.feat-right-block img {
+    width: 100%;
 }
 
 .feat-badge-btn {
@@ -313,6 +320,28 @@ nav a {
         text-align: center;
     }
 
+    .feat-lovenjoy-sect {
+        flex-direction: column;
+    }
+
+    .feat-left-block {
+        max-width: 100%;
+    }
+
+    .feat-card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .feat-right-block {
+        text-align: center;
+    }
+
+    .feat-badge-btn {
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+
     .factbox-wrapper {
         flex-direction: column;
         justify-content: center;
@@ -340,6 +369,28 @@ nav a {
         text-align: center;
     }
 
+    .feat-lovenjoy-sect {
+        flex-direction: column;
+    }
+
+    .feat-left-block {
+        max-width: 100%;
+    }
+
+    .feat-card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .feat-right-block {
+        text-align: center;
+    }
+
+    .feat-badge-btn {
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+
     .factbox-wrapper {
         flex-wrap: wrap;
     }
@@ -347,6 +398,6 @@ nav a {
     .sponsor-wrapper {
         justify-content: center;
         flex-wrap: wrap;
-        
+
     }
 }
