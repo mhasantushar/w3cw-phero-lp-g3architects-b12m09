@@ -154,7 +154,27 @@ nav a {
     .nav-bar {
         flex-direction: column;
     }
+
+    .team-features {
+        flex-direction: column;
+    }
+
+    .team-images {
+        grid-template-columns: 1fr;
+    }
+
+    .team-contents {
+        text-align: center;
+    }
 }
 
 /* ================================== */
-@media screen and (min-width: 576px) and (max-width: 992px) {}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .team-features {
+        flex-direction: column;
+    }
+
+    .team-contents {
+        text-align: center;
+    }
+}
