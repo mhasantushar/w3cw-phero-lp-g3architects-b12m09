@@ -47,6 +47,19 @@
     font-size: 1.25rem;
 }
 
+.section-title {
+    font-weight: 700;
+    font-size: 2.8125rem;
+    color: #131313;
+}
+
+.section-copy {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.625rem;
+}
+
 /* header area */
 
 /* navigation bar */
@@ -80,7 +93,7 @@ nav a {
     padding-bottom: 50px;
 }
 
-.hero-copies {
+.hero-contents {
     max-width: 862px;
 }
 
@@ -93,9 +106,6 @@ nav a {
 }
 
 .hero-copy {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.625rem;
     text-align: center;
     margin-bottom: 32px;
 }
@@ -106,6 +116,39 @@ nav a {
     border-radius: 8px;
 }
 
+/* quick list of our features section */
+.team-features {
+    display: flex;
+    gap: 76px;
+    padding: 85px;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-images img {
+    max-width: 342px;
+    max-height: 342px;
+    border-radius: 8px;
+}
+
+.team-title-split-1 {
+    font-weight: 500;
+    color: #727272;
+}
+
+.team-title-split-3 {
+    color: #FF900E;
+}
+
+.team-copy {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
 /* ================================== */
 @media screen and (max-width: 576px) {
     .nav-bar {
@@ -114,6 +157,4 @@ nav a {
 }
 
 /* ================================== */
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    
-}
+@media screen and (min-width: 576px) and (max-width: 992px) {}
