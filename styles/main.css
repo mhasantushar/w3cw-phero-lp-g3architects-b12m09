@@ -214,11 +214,29 @@ nav a {
     display: flex;
     gap: 50px;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .sponsor-wrapper img {
     height: 50px;
+}
+
+/* footer section */
+.footer-sect {
+    text-align: center;
+    margin-top: 30;
+    margin-bottom: 100;
+    border-radius: 8px;
+    padding: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer-copy {
+    color: #424242;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
 }
 
 /* ================================== */
