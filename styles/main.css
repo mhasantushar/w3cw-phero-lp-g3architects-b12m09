@@ -39,8 +39,7 @@
 .btn-punch {
     background-color: #FF900E;
     color: white;
-    width: 180px;
-    height: 64px;
+    padding: 25px;
     border: none;
     border-radius: 8px;
     font-weight: 600;
@@ -64,7 +63,7 @@
     text-align: center;
 }
 
-.turn-gray {
+.img-go-gray {
     filter: grayscale(100%)
 }
 
@@ -147,12 +146,12 @@ nav a {
     border-radius: 8px;
 }
 
-.team-title-split-1 {
+.team-ttl-split-1 {
     font-weight: 500;
     color: #727272;
 }
 
-.team-title-split-3 {
+.team-ttl-split-3 {
     color: #FF900E;
 }
 
@@ -198,6 +197,24 @@ nav a {
     padding: 30px;
 }
 
+.feat-badge-btn {
+    margin-left: -92px;
+    margin-top: -133px;
+    padding: 45px;
+}
+
+.feat-btn-split-1 {
+    font-weight: 700;
+    font-size: 4.0625rem;
+    line-height: 4.375rem;
+}
+
+.feat-btn-split-2 {
+    font-weight: 500;
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+}
+
 /* some facts section */
 
 .facts-copy {
@@ -215,9 +232,9 @@ nav a {
 .factbox {
     border: 1px inset #FF900E;
     border-radius: 8px;
-    padding: 24px;
-    min-width: 200px;
-    min-height: 200px;
+    padding: 60px;
+    /* min-width: 200px;
+    min-height: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
