@@ -162,13 +162,20 @@ nav a {
 .factbox-wrapper {
     display: flex;
     justify-content: space-around;
+    gap: 24px;
+    margin-bottom: 180px;
 }
 
 .factbox {
     border: 1px inset #FF900E;
     border-radius: 8px;
     padding: 24px;
-    text-align: center;
+    min-width: 200px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .fact-val {
@@ -195,13 +202,25 @@ nav a {
 
     .team-features-sect {
         flex-direction: column;
+        padding: 0;
     }
 
     .team-images {
         grid-template-columns: 1fr;
+        place-items: center;
     }
 
     .team-contents {
+        text-align: center;
+    }
+
+    .factbox-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 10px;
+    }
+
+    .facts-contents {
         text-align: center;
     }
 }
