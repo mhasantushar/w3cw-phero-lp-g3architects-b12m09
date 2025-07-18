@@ -129,20 +129,21 @@ nav a {
 .team-features-sect {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 76px;
     padding: 0 85px;
     margin-bottom: 130px;
 }
 
-.team-images {
+.team-image-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
-.team-images img {
-    max-width: 342px;
-    max-height: 342px;
+.team-image-wrapper img {
+    /* max-width: 342px;
+    max-height: 342px; */
     border-radius: 8px;
 }
 
@@ -311,7 +312,7 @@ nav a {
         padding: 0;
     }
 
-    .team-images {
+    .team-image-wrapper {
         grid-template-columns: 1fr;
         place-items: center;
     }
@@ -360,7 +361,7 @@ nav a {
 }
 
 /* ================================== */
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576.01px) and (max-width: 992px) {
     .team-features-sect {
         flex-direction: column;
     }
